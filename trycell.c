@@ -1,3 +1,5 @@
+#include <stdio.h>
+extern int *returnsp();
 int trycell(int *x, int pos)
 {
     int row = pos / 9;
