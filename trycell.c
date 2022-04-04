@@ -6,7 +6,7 @@ int trycell(int *x, int pos)
     int col = pos % 9;
     int i, j, used = 0;
     unsigned long sp;
-    sp = (unsigned long) retunsp();
+    sp = (unsigned long) returnsp();
 
     printf("Entering trycell, Stack pointer register sp: %#8x\n", sp);
     if (pos == 81) return 1;
