@@ -1,5 +1,5 @@
 #include <stdio.h>
-extern int *returnsp();
+extern long *returnsp();
 int trycell(int *x, int pos)
 {
     int row = pos / 9;
